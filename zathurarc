@@ -1,0 +1,61 @@
+# zathurarc
+
+# settings
+set window-height 768
+set window-width 1368
+set adjust-open width
+# set show-scrollbars true
+set first-page-column 2
+set window-title-basename true
+# set database sqlite
+set recolor-keephue
+set selection-clipboard clipboard
+
+
+# key bindings
+# map <C-[> abort # Still doesn't work :(
+map [normal]     <F11> toggle_fullscreen
+map [fullscreen] <F11> toggle_fullscreen
+map [normal]     r     reload
+map [fullscreen] r     reload
+
+map [normal]     e scroll down
+map [fullscreen] e scroll down
+map [normal]     u scroll up
+map [fullscreen] u scroll up
+map [fullscreen] i scroll full-up
+map [fullscreen] n scroll full-up
+map [normal]     i scroll full-down
+map [normal]     n scroll full-up
+map [normal]     R rotate rotate-ccw
+map [fullscreen] R rotate rotate-ccw
+
+map [normal]     <PageUp>   navigate previous
+map [fullscreen] <PageUp>   navigate previous
+map [normal]     <PageDown> navigate next
+map [fullscreen] <PageDown> navigate next
+
+map [normal]     <A-1> set "first-page-column 1"
+map [fullscreen] <A-1> set "first-page-column 1"
+map [normal]     <A-2> set "first-page-column 2"
+map [fullscreen] <A-2> set "first-page-column 2"
+
+# Why are these only defined for normal mode by default?
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] d toggle_page_mode 2
+map [fullscreen] <Tab> toggle_index
+map [fullscreen] e scroll down
+map [fullscreen] u scroll up
+map [fullscreen] <C-d> scroll half-down
+map [fullscreen] <C-u> scroll half-up
+map [fullscreen] n     jumplist backward
+map [fullscreen] i     jumplist forward
+map [fullscreen] = zoom in
+map [fullscreen] - zoom out
+map [normal] = zoom in
+map [normal] - zoom out
+map [normal] , search backward
+map [normal] . search forward
+map [index] q quit
