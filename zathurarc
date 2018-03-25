@@ -19,14 +19,14 @@ map [fullscreen] <F11> toggle_fullscreen
 map [normal]     r     reload
 map [fullscreen] r     reload
 
-map [normal]     e scroll down
-map [fullscreen] e scroll down
-map [normal]     u scroll up
-map [fullscreen] u scroll up
-map [fullscreen] i scroll full-up
-map [fullscreen] n scroll full-up
-map [normal]     i scroll full-down
-map [normal]     n scroll full-up
+map [normal]     k scroll down
+map [fullscreen] k scroll down
+map [normal]     i scroll up
+map [fullscreen] i scroll up
+map [normal]     l scroll full-down
+map [fullscreen] l scroll full-down
+map [normal]     j scroll full-up
+map [fullscreen] j scroll full-up
 map [normal]     R rotate rotate-ccw
 map [fullscreen] R rotate rotate-ccw
 
@@ -46,12 +46,12 @@ map [fullscreen] s adjust_window width
 map [fullscreen] f follow
 map [fullscreen] d toggle_page_mode 2
 map [fullscreen] <Tab> toggle_index
-map [fullscreen] e scroll down
+map [fullscreen] h scroll down
 map [fullscreen] u scroll up
-map [fullscreen] <C-d> scroll half-down
-map [fullscreen] <C-u> scroll half-up
-map [fullscreen] n     jumplist backward
-map [fullscreen] i     jumplist forward
+map [fullscreen] <C-i> scroll half-down
+map [fullscreen] <C-k> scroll half-up
+map [fullscreen] 2     jumplist backward
+map [fullscreen] 1     jumplist forward
 map [fullscreen] = zoom in
 map [fullscreen] - zoom out
 map [normal] = zoom in
