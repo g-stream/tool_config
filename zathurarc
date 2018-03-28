@@ -57,5 +57,7 @@ map [fullscreen] - zoom out
 map [normal] = zoom in
 map [normal] - zoom out
 map [normal] , search backward
+map [fullscreen] , search backward
 map [normal] . search forward
+map [fullscreen] . search forward
 map [index] q quit
