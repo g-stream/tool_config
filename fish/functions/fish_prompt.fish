@@ -1,1 +1,1 @@
-/home/yinly/.local/share/omf/themes/fox/fish_prompt.fish
+/home/yinly/.local/share/omf/themes/bira/fish_prompt.fish
