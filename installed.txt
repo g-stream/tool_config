@@ -1,0 +1,17 @@
+tuxguitar
+ build-essential
+cmake  
+kdevelop
+wireshark
+git cmake
+fish tmux ipython3 
+automake
+shadowsocks-libev
+htop
+tree
+curl
+nmap
+
+nmap
+libtool m4 automake
+ninja-build
