@@ -1,3 +1,5 @@
+
+
 tuxguitar
  build-essential
 cmake  
@@ -11,7 +13,7 @@ htop
 tree
 curl
 nmap
-
-nmap
 libtool m4 automake
 ninja-build
+zathura
+emacs
