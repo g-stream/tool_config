@@ -1,12 +1,12 @@
-
-
 tuxguitar
- build-essential
+build-essential
 cmake  
 kdevelop
 wireshark
 git cmake
-fish tmux ipython3 
+fish
+tmux
+ipython3 
 automake
 shadowsocks-libev
 htop
@@ -16,4 +16,7 @@ nmap
 libtool m4 automake
 ninja-build
 zathura
-emacs
+emacs25-nox
+zeal
+vscode
+mailspring
